@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* our won */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body                                           {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  padding-bottom: 50px;
+}
+
+header {
+	margin-top: 100px;
+	padding: 0.5em 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#search {
+	order: 1;
+}
+
+main section {
+	padding: 1em;
+	transition: 1s;
+}
+
+.hidden {
+	opacity: 0;
+	height: 0;
+	box-sizing: border-box;
+	padding: 0 1em;
+	overflow: auto;
+}
+
+
+img.shadow.active {
+	filter: drop-shadow(0 0 10px black);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cryptosearch{
+  display: flex;
+  margin-top: 100px;
+  padding: 10 10rem;
+  justify-content: center;
+}
+
+.nav {
+  position: fixed;
+  background-color: #040403;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav.active {
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav.active a {
+  color: #000;
+}
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.slider-img {
+  background-image: url("images/image-frontpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+  z-index: -2;
+}
+
+.slider-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.slider-img h1 {
+  font-size: 41px;
+  margin: -20px 0 20px;
+}
+
+.slider-img p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.crypto-content{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  
+
+}
+.crypto-img{
+  width: 400px;
+    height: 400px;
+    float: left;
+    
+
+}
+.crypto-img img{
+  width: 350px;
+  margin-left: 200px;
+  
+
+}
+.crypto-content-2{
+  width: 650px;
+    float: left;
+    margin-left: 10px;
+    line-height: 26px;
+    padding-left: 175px;
+    padding-right: 150px;
+    margin-top: 38px;
+    
+
+}
+.cypto-content-2 h2{
+  font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 165px;
+    text-align: justify;
+    color: #243039;
+    border-bottom: 2px solid #8d1300;
+    padding-bottom: 12px;
+
+}
+.crypto-content-2 p{
+  font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #243038;
+    line-height: 18px;
+    margin-top: 20px;
+   
+}
+
+.about-blockchain{
+ 
+    display: flex;
+    
+    padding: 78px;
+    background: #fff;
+    margin-top: 25px;
+    margin-bottom: 68px;
+
+   
+}
+
+.about-blockchain .blockchain h3{
+  color: #000;
+  font-size: 30px;
+  display: flex;
+}
+
+.about-blockchain .blockchain p{
+  color: #000;
+    font-size: 22px;
+    margin-top: 20px;
+    
+}
+
+.about-blockchain .blockchain p i{
+  font-size: 45px;
+  
+}
+
+.footer{
+  
+  height: 300px;
+  display: flexbox;
+  
+
+
+
+}
+.inner-footer {
+    width: 400px;
+    height: 280px;
+    float: left;
+    padding-left: 48px;
+    padding-top: 31px;
+    margin-right: 26px;
+    display: flexbox;
+}
+.inner-footer .inner-footer-one{
+
+}
+
+.inner-footer .inner-footer-one h1 a{
+
+    text-decoration: none;
+}
+
+.inner-footer .links h3 {
+    font-size: 23px;
+    color: #000;
+    margin-bottom: 25px;
+    padding-bottom: 14px;
+}
+
+.inner-footer .links ul.list {
+    list-style: none;
+    margin-left: 0px;
+}
+
+.inner-footer .links ul.list li a {
+    font-size: 17px;
+    color: rgb(38, 7, 7);
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.inner-footer .links ul.list li i {
+    color: rgb(38, 7, 7);
+}
+
+.inner-footer .address-section h3 {
+    font-size: 23px;
+    color: rgb(38, 7, 7);
+    margin-bottom: 25px;
+    padding-bottom: 14px;
+}
+
+.inner-footer .address-section ul.list {
+    list-style: none;
+    margin-left: 0px;
+}
+.inner-footer .address-section ul.list li {
+    font-size: 17px;
+    color: #rgb(38, 7, 7);
+    margin-bottom: 12px;
+}
+
+.inner-footer .address-section ul.list li i {
+    color: rgb(38, 7, 7);
+}
+
+.inner-footer p{
+  font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    line-height: 23px;
+    color: rgb(38, 7, 7);
+}
+
+
+
+h1.location-Map{
+  font-size: 50px;
+  margin-top: 90px;
+}
+
+
+.crypto-currecy-content {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 55px;
+}
+.crypto-currecy-content-one
+.crypto-currecy-content-two
+.crypto-currecy-content-three
+.crypto-currecy-content-four
+.crypto-currecy-content-five
+{
+    width: 497px;
+    height: 297px;
+    float: left;
+}
+.crypto-currecy-content-one
+.crypto-currecy-content-two
+.crypto-currecy-content-three
+.crypto-currecy-content-four
+.crypto-currecy-content-five
+{
+    width: 442px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.crypto-currecy-content
+.crypto-currecy-content-one
+.crypto-currecy-content-two
+.crypto-currecy-content-three
+.crypto-currecy-content-four
+.crypto-currecy-content-five
+ .inner-crypto-content
+ {
+    width: 681px;
+    /* height: 272px; */
+    float: left;
+    margin-left: 1px;
+    line-height: 26px;
+    padding-left: 1px;
+    padding-right: 150px;
+    margin-top: 38px;
+}
+.crypto-currecy-content
+.crypto-currecy-content
+.crypto-currecy-content-two
+.crypto-currecy-content-three
+.crypto-currecy-content-four
+.crypto-currecy-content-five
+
+ .inner-crypto-content h2{
+   font-family: 'Dancing Script', cursive;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: justify;
+    color: #243038;
+    margin-bottom: 17px;
+
+}
+.crypto-currecy-content
+.crypto-currecy-content-one
+.crypto-currecy-content-two
+.crypto-currecy-content-three
+.crypto-currecy-content-four
+.crypto-currecy-content-five
+
+.inner-crypto-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    color: #243038;
+}
+
