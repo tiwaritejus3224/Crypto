@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 const nav = document.querySelector(".nav");
 
 const fixNav = () => {
