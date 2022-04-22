@@ -14,7 +14,7 @@ body                                           {
 }
 
 header {
-	margin-top: 100px;
+	margin-top: 101px;
 	padding: 0.5em 1em;
 	display: flex;
 	flex-direction: column;
@@ -147,20 +147,20 @@ img.shadow.active {
   display: flex;
   margin-top: 50px;
   margin-bottom: 10px;
-  
+
 
 }
 .crypto-img{
   width: 400px;
     height: 400px;
     float: left;
-    
+
 
 }
 .crypto-img img{
   width: 350px;
   margin-left: 200px;
-  
+
 
 }
 .crypto-content-2{
@@ -171,7 +171,7 @@ img.shadow.active {
     padding-left: 175px;
     padding-right: 150px;
     margin-top: 38px;
-    
+
 
 }
 .cypto-content-2 h2{
@@ -193,19 +193,19 @@ img.shadow.active {
     color: #243038;
     line-height: 18px;
     margin-top: 20px;
-   
+
 }
 
 .about-blockchain{
- 
+
     display: flex;
-    
+
     padding: 78px;
     background: #fff;
     margin-top: 25px;
     margin-bottom: 68px;
 
-   
+
 }
 
 .about-blockchain .blockchain h3{
@@ -218,19 +218,19 @@ img.shadow.active {
   color: #000;
     font-size: 22px;
     margin-top: 20px;
-    
+
 }
 
 .about-blockchain .blockchain p i{
   font-size: 45px;
-  
+
 }
 
 .footer{
-  
+
   height: 300px;
   display: flexbox;
-  
+
 
 
 
@@ -386,4 +386,3 @@ h1.location-Map{
     text-align: justify;
     color: #243038;
 }
-
